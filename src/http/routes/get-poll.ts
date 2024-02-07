@@ -18,7 +18,7 @@ export const getPoll = async (app: FastifyInstance) => {
     include:{
       options:{
         select:{
-          poll_Id: true,
+          id: true,
           title: true
         }
       }
